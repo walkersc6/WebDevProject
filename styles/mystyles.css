@@ -1,0 +1,52 @@
+/*Sarah Walker 12/15*/
+body {
+    background-color: rgb(33,105,88);
+    color: white;
+}
+
+h3 {
+    text-align: center;
+}
+
+ul {
+    list-style: square;
+}
+
+a:hover {
+    color: rgb(130, 187, 174)
+}
+
+a:visited {
+    color:rgb(130, 187, 174);
+}
+
+a.header {
+    color: white;
+}
+
+caption {
+    font-size: xx-small;
+}
+
+div.grid {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin: 50px;
+    gap: 50px;
+}
+
+div.item {
+    width: 30%;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%  
+}
+
+.caption {
+    text-align: center; 
+    font-size: small;
+}
